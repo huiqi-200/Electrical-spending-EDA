@@ -1,0 +1,56 @@
+-- CREATE TABLE actual_vol(
+-- 	Date varchar(50),
+-- 	Period integer,
+-- 	"Market Segment" varchar(100),
+-- 	Volume double precision
+-- );
+
+-- CREATE TABLE forecast_vol(
+-- 	Date varchar(50),
+-- 	Period integer,
+-- 	Region varchar(100),
+-- 	Volume double precision
+-- );
+
+-- CREATE TABLE balance_cost(
+-- 	Date varchar(50),
+-- 	Period integer,
+-- 	BALANCE_costrate double precision 
+-- );
+
+
+-- CREATE TABLE other_cost(
+-- 	Period integer,
+-- 	"Period Cost" double precision
+-- );
+
+-- CREATE TABLE tariff(
+-- 	"Market Segment" varchar(100),
+--  "Tariff name" varchar(100)
+-- 	region varchar(100),
+-- 	Tariff_amount double precision,
+-- 	Standing_charge double precision
+-- );
+
+-- CREATE TABLE tariff_discount(
+-- 	"Payment Type" varchar(100),
+-- 	tariff_discount double precision
+-- );
+
+
+-- CREATE TABLE segment_matrix(
+-- 	"Product id" integer, 
+-- 	"Tariff type" varchar(100),
+-- 	"Tariff name" varchar(100),
+-- 	"Market Segment" varchar(100),
+-- 	Region varchar(100),
+-- 	"Payment Type" varchar(100),
+-- 	"Customer Count" integer,
+-- 	customer_vol double precision 
+-- );
+
+
+
+
+
+

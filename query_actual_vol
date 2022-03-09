@@ -1,0 +1,17 @@
+-- SELECT "Market Segment", sum(Volume) as "Actual Volume"
+-- from actual_vol
+-- GROUP BY "Market Segment";
+
+-- Update Industrial customer to same name
+-- UPDATE actual_vol
+-- SET "Market Segment" = 'INDUSTRIAL CUSTOMER'
+-- WHERE "Market Segment" LIKE 'INDUSTRIAL CUST%';
+
+-- Update Residential to drop trailing ..
+-- UPDATE actual_vol
+-- SET "Market Segment" = 'RESIDENTIAL'
+-- WHERE "Market Segment" LIKE 'RESIDENTIAL%';
+
+SELECT "region", sum(Volume) as "Forecast Volume"
+from forecast_vol
+GROUP BY "region";
